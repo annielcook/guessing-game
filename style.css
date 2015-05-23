@@ -14,8 +14,9 @@ h1 {
 
 }
 
-h2 {
+input {
   text-align: center;
+  display: block;;
   border: 5px solid #676767;
   width: 960px;
   margin: 0 auto;
