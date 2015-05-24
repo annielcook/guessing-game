@@ -6,7 +6,7 @@
   <link rel="shortcut icon" href="question-mark.png">
 
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script rel='javascript' src="script.js"></script>
 
 
@@ -15,11 +15,13 @@
 <body>
 
   <h1>Hot or Cold</h1>
-  <input type="text" value="Enter a number between 1 and 100"></input>
+  <div class="prompt"></div>
+  <input id="box" type="text" value="Enter a number between 1 and 100"></input>
+  <h3 class="guesses_left"><div class="remaining"></div>5<br>guesses<br>left</h3>
   <div class="button-group">
-    <p class="button">Submit</p>
-    <p class="button">Hint</p>
-    <p class="button">Clear</p>
+    <button type="button" id="sub" class="button">Submit</button>
+    <button type="button" id="hint" class="button">Hint</button>
+    <button type="button" id="clear" class="button">Clear</button>
   </div>
 
 
